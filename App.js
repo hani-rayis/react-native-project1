@@ -12,8 +12,8 @@ let [count, setCount] = useState (0)
     <View style={styles.container}>
       <Text style={styles.baaText}> {baaText()} </Text>
       
-     {//<CounterSheep>{count}</CounterSheep> 
-}
+     <CounterSheep>{count}</CounterSheep> 
+
       <Text style={styles.text}>{count}</Text>
       <Text style={styles.text}>🐑 sheep counter 🐑
       {"\n"}
