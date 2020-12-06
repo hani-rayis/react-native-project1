@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button, TouchableOpacity} from 'react-native';
-import CounterSheep from './components/CounterSheep';
 
 
 export default function App() {
