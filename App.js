@@ -13,7 +13,6 @@ let [count, setCount] = useState (0)
       <Text style={styles.baaText}> {baaText()} </Text>
       
      <CounterSheep>{count}</CounterSheep> 
-
       <Text style={styles.text}>{count}</Text>
       <Text style={styles.text}>🐑 sheep counter 🐑
       {"\n"}
